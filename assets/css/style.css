@@ -364,12 +364,20 @@ hr {
 
 @media only screen and (max-width: 500px) {
 
+  #bannerHeading {
+    margin-top: 15vh;
+  }
+
   #boxA > hr {
     display: none;
   }
 
   #boxB > hr {
     display: none;
+  }
+
+  #boxB {
+    height: 250px;
   }
 
   .parallax {
