@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fce54115db.js"></script>
+    <script src="https://www.foodbooking.com/widget/js/ewm2.js" defer async></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700|Lora|Homemade+Apple" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-right" href="index.html">
+                <p>BRIARWOOD DELI</p>
+            </a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown menuOption">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>MENU</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="menuB.html">Breakfast Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="menuA.html">Lunch Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="menuC.html">Catering Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuOption"><a href="#"><b>ORDER ONLINE</b></a></li>
+                    <li class="menuOption"><a href="#anchor"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-1 col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active">LUNCH MENU</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12" id="menuA">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12" id="entreesA">
+                        <h2 class="entreeHeadings">NY Specialty Sandwiches</h2>
+                        <br>
+                        <p>All NY Specialty Sandwiches: $6.75</p>
+                        <p>Served on rye or torpedo roll</p>
+                        <br>
+                        <h3 class="entreeHeadings">Empire State Building</h3>
+                        <p>Roast beef, turkey, meunster cheese, coleslaw, lettuce, tomato</p>
+                        <br>
+                        <h3 class="entreeHeadings">Times Square</h3>
+                        <p>Turkey, bacon, coleslaw, swiss, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Broadway</h3>
+                        <p>Corned beef, salami, swiss, coleslaw, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Trump Tower</h3>
+                        <p>Corned beef, pastrami, swiss, coleslaw</p>
+                        <br>
+                        <h3 class="entreeHeadings">Wall Street</h3>
+                        <p>Smoked turkey, sharp cheddar, RSTD peppers, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">BQE</h3>
+                        <p>Liverwurst, swiss, onions, boiled egg, hot mustard, lettuce</p>
+                        <br>
+                        <h3 class="entreeHeadings">Park Avenue</h3>
+                        <p>Proscuitto, mozzarella, RSTD peppers, onions</p>
+                        <br>
+                        <h3 class="entreeHeadings">5th Avenue</h3>
+                        <p>Smoked turkey, sliced cucumbers, lettuce, tomatoes, cream cheese</p>
+                        <br>
+                        <h3 class="entreeHeadings">Central Park</h3>
+                        <p>Roastebeef, capicola, pepper jack, RSTD peppers russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Bellview</h3>
+                        <p>Honey turkey, honey ham, sweet munchee, lettuce, tomato, honey, mustard</p>
+                        <br>
+                        <h3 class="entreeHeadings">Upper East Side</h3>
+                        <p>Smoked turkey, virginia ham, vermont cheddar, pickle, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Westside Story</h3>
+                        <p>Pepper ham, pepper jack, peppermill turkey, lettuce, tomato, horseradish, dijon dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Bronx Bombers</h3>
+                        <p>Virginia ham with potato salad, cooper sharp, spicy mustard</p>
+                        <br>
+                        <h3 class="entreeHeadings">Belt Parkway</h3>
+                        <p>Pork roll, honey turkey, colelaw, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Bellmont Racetrack</h3>
+                        <p>Cajun roast beef, pepper ham, pepper jack, bacon, coleslaw, russian dressing</p>
+                        <br>
+                        <h3 class="entreeHeadings">Godfather</h3>
+                        <p>Soppressata, prosciutto, pepperoni, provolone, lettuce, onions, RSTD peppers</p>
+                        <br>
+                    </div>
+                    <div class="col-md-6 col-xs-12" id="entreesB">
+                        <h2 class="entreeHeadings">Classic Sandwiches</h2>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <h3 class="entreeHeadings">Italian</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Ham</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Virginia Ham</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Maple Honey Ham</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Ham Capicola</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Roast Pork</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Roast Beef</h3>
+                                <p>Sandwich - $6.00</p>
+                                <p>Hoagie - $7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Cajun Roast Beef</h3>
+                                <p>Sandwich - $6.00</p>
+                                <p>Hoagie - $7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Turkey Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Pepper Mill Turkey Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Smoked Turkey Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Honey Turkey Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Chicken Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <h3 class="entreeHeadings">Chicken Breast</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Pastrami</h3>
+                                <p>Sandwich - $6.00</p>
+                                <p>Hoagie - $7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Corned Beef</h3>
+                                <p>Sandwich - $6.00</p>
+                                <p>Hoagie - $7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Pastrami Special</h3>
+                                <p>Sandwich - $6.50</p>
+                                <p>Hoagie - $8.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Corned Beef Special</h3>
+                                <p>Sandwich - $6.50</p>
+                                <p>Hoagie - $8.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Genoa Salami</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Prosciutto</h3>
+                                <p>Sandwich - $6.00</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Bologna</h3>
+                                <p>Sandwich - $5.00</p>
+                                <p>Hoagie - $6.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Liverwurst</h3>
+                                <p>Sandwich - $5.00</p>
+                                <p>Hoagie - $6.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">American Cheese</h3>
+                                <p>Sandwich - $5.00</p>
+                                <p>Hoagie - $6.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Chicken Salad</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Tuna Salad</h3>
+                                <p>Sandwich - $5.50</p>
+                                <p>Hoagie - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Egg Salad</h3>
+                                <p>Sandwich - $5.00</p>
+                                <p>Hoagie - $6.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 menuBtnRow">
+                        <a class="btn btn-customC btn-lg" href="#">Order Online</a><a class="btn btn-customD btn-lg" href="Briarwood Deli_Hamilton.pdf">Save Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12" id="menuB">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12" id="entreesC">
+                        <h2 class="entreeHeadings">Fat Sandwiches</h2>
+                        <br>
+                        <p>Served on Torpedo Roll</p>
+                        <p>*with lettuce, tomatoes, ketchup, mayo</p>
+                        <br>
+                        <h3 class="entreeHeadings">*Fat Tom</h3>
+                        <p>Burger, cheese, fries</p>
+                        <p>$7.50</p>
+                        <h3 class="entreeHeadings">*Chicken Fat Tom</h3>
+                        <p>Grilled chicken, cheese, fries</p>
+                        <p>$7.50</p>
+                        <h3 class="entreeHeadings">*Fat Spartan</h3>
+                        <p>Cheesesteak, chicken fingers, mozzarella sticks, fries</p>
+                        <p>$8.00</p>
+                        <h3 class="entreeHeadings">*Fat Northstar</h3>
+                        <p>Chicken fingers, bacon, eggs, fries</p>
+                        <p>$8.00</p>
+                        <h3 class="entreeHeadings">*Fat Hornet</h3>
+                        <p>Cheesesteak, pork roll, eggs, fries</p>
+                        <p>$8.00</p>
+                        <h3 class="entreeHeadings">Fat Gladiator</h3>
+                        <p>Chicken fingers, mozzarella sticks, fries, marinara</p>
+                        <p>$8.00</p>
+                        <h3 class="entreeHeadings">*Fat Cougar</h3>
+                        <p>Cheesesteak, grilled chicken, fries</p>
+                        <p>$8.00</p>
+                        <h3 class="entreeHeadings">Fat Raider</h3>
+                        <p>Pizza steak, fries, mozzarella sticks</p>
+                        <p>$8.00</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12" id="entreesD">
+                        <h2 class="entreeHeadings">Paninis</h2>
+                        <br>
+                        <p>All Paninis: $6.75</p>
+                        <p>Made with our homemade panini bread</p>
+                        <p>*with lettuce, tomatoes</p>
+                        <br>
+                        <h3 class="entreeHeadings">*Chicken Bacon Ranch</h3>
+                        <p>Grilled chicken, bacon, pepper jack, ranch</p>
+                        <br>
+                        <h3 class="entreeHeadings">*Turkey Avocado</h3>
+                        <p>Turkey, cheddar, pepper jack cheese, avocado, ranch</p>
+                        <br>
+                        <h3 class="entreeHeadings">*Tuna</h3>
+                        <p>Homemade tuna salad, american cheese</p>
+                        <br>
+                        <h3 class="entreeHeadings">*Italian</h3>
+                        <p>Capicola, salami, pepperoni, provolone, roasted peppers, balsamic</p>
+                        <br>
+                        <h3 class="entreeHeadings">Buffalo Chicken</h3>
+                        <p>Bufallo chicken, bacon, pepper jack, chipotle SC</p>
+                        <br>
+                        <h3 class="entreeHeadings">BBQ Chicken</h3>
+                        <p>Grilled chicken, bacon, home fries, cheddar, pepper jack, BBQ SC</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="entreesE">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h2 class="entreeHeadings">Chicken Sandwiches</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-2 col-xs-12">
+                                <br>
+                                <h3 class="entreeHeadings">Original</h3>
+                                <p>With lettuce, tomato, choice of sauce</p>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Bacon</h3>
+                                <p>With american cheese, lettuce, tomato, BBQ SC</p>
+                                <p>$6.00</p>
+                                <br>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
+                                <br>
+                                <h3 class="entreeHeadings">Fire</h3>
+                                <p>With pepper jack cheese, lettuce, tomato, hot SC</p>
+                                <p>$6.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Parm</h3>
+                                <p>With breaded cutlets, mozzarella, marinara</p>
+                                <p>$6.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 menuBtnRow">
+                        <a class="btn btn-customC btn-lg" href="#">Order Online</a>
+                        <a class="btn btn-customD btn-lg" href="Briarwood Deli_Hamilton.pdf">Save Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12" id="menuC">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="entreesF">
+                        <h2 class="entreeHeadings">Hot Foods</h2>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3 col-xs-12">
+                                <h3 class="entreeHeadings">Steak</h3>
+                                <p>Regular - $4.50</p>
+                                <p>Large - $5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Chicken Steak</h3>
+                                <p>Regular - $4.50</p>
+                                <p>Large - $5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Cheesesteak</h3>
+                                <p>Regular - $5.00</p>
+                                <p>Large - $6.00</p>
+                                <br>
+                                <p><i>with Works</i></p>
+                                <p>Regular - $6.00</p>
+                                <p>Large - $7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Chicken Cheesesteak</h3>
+                                <p>Regular - $5.00</p>
+                                <p>Large - $6.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Pizza Steak</h3>
+                                <p>Regular - $5.50</p>
+                                <p>Large - $6.50</p>
+                                <br>
+                            </div>
+                            <div class="col-md-3 col-xs-12" id="entreesG">
+                                <h3 class="entreeHeadings">Hamburger</h3>
+                                <p>$4.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Cheeseburger</h3>
+                                <p>$5.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Pizzaburger</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Baconburger</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">California Burger</h3>
+                                <p>$5.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">California Cheeseburger</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Italian Hot Dog</h3>
+                                <p>$4.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Italian Sausage</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Meatball Parm</h3>
+                                <p>$6.00</p>
+                                <br>
+                            </div>
+                            <div class="col-md-3 col-xs-12" id="entreesH">
+                                <h3 class="entreeHeadings">Eggplant Parm</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Tuna Melt</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Fish Fillet</h3>
+                                <p>$5.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Fish N Chips</h3>
+                                <p>$7.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Grilled Cheese</h3>
+                                <p>$3.50</p>
+                                <br>
+                                <p><i>with Bacon</i></p>
+                                <p>$4.50</p>
+                                <h3 class="entreeHeadings">Reuben</h3>
+                                <p>$6.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Chicken Fingers</h3>
+                                <p>$5.00</p>
+                                <br>
+                                <p><i>with Fries</i></p>
+                                <p>$7.00</p>
+                            </div>
+                            <div class="col-md-3 col-xs-12" id="entreesI">
+                                <h3 class="entreeHeadings">BLT</h3>
+                                <p>$4.00</p>
+                                <br>
+                                <h3 class="entreeHeadings">Cheesesteak Special</h3>
+                                <p>Pepperoni, peppers, fried onions, mushrooms, marinara</p>
+                                <p>$7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Jersey Cheesesteak</h3>
+                                <p>Fries, peppers, fried onions</p>
+                                <p>$7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">NY Cheesesteak</h3>
+                                <p>Fried onions, sweet peppers, cheddar</p>
+                                <p>$7.50</p>
+                                <br>
+                                <h3 class="entreeHeadings">Buffalo Wings</h3>
+                                <p>Mild, Hot, BBQ, Honey BBQ</p>
+                                <p>(6) $5.00</p>
+                                <p>(12) $9.00</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 menuBtnRow">
+                        <a class="btn btn-customC btn-lg" href="#">Order Online</a>
+                        <a class="btn btn-customD btn-lg" href="Briarwood Deli_Hamilton.pdf">Save Menu</a>
+                    </div>
+                </div>
+                <!--<div class="row">
+                    <div class="col-md-3 col-md-offset-3 col-xs-12" id="entreesJ">
+                        <h2 class="entreeHeadings">Salads</h2>
+                        <br>
+                        <h3 class="entreeHeadings">Garden Salad</h3>
+                        <p>$4.50</p>
+                        <br>
+                        <h3 class="entreeHeadings">Chef Salad</h3>
+                        <p>$5.50</p>
+                        <br>
+                        <h3 class="entreeHeadings">Grilled Chicken Salad</h3>
+                        <p>$5.50</p>
+                        <br>
+                    </div>
+                    <div class="col-md-3 col-xs-12" id="entreesK">
+                        <h2 class="entreeHeadings">Homemade Soups</h2>
+                        <br>
+                        <p>Small - $3.00</p>
+                        <p>Large - $4.00</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12" id="menuD">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1 col-xs-12" id="entreesJ">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h2 class="entreeHeadings">Salads</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-2 col-xs-12">
+                                <h3 class="entreeHeadings">Garden Salad</h3>
+                                <p>$4.50</p>
+                                <br>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
+                                <h3 class="entreeHeadings">Chef Salad</h3>
+                                <p>$5.50</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h3 class="entreeHeadings">Grilled Chicken Salad</h3>
+                                <p>$5.50</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-12" id="entreesK">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h2 class="entreeHeadings">Homemade Soups</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <br>
+                                <p>Small - $3.00</p>
+                                <p>Large - $4.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 menuBtnRow">
+                        <a class="btn btn-customC btn-lg" href="#">Order Online</a><a class="btn btn-customD btn-lg" href="Briarwood Deli_Hamilton.pdf">Save Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12 footerInfoA">
+                            <h3 class="footerHeading"><b>BRIARWOOD DELI</b></h3>
+                            <br>
+                            <p>Briarwood Deli has been proudly serving the Hamilton, NJ community since 2013. As a commitment to the quality of our menu and staff, we are always open to our customer's feedback and suggestions.</p>
+                        </div>
+                        <div class="col-md-4 col-md-offset-1 col-sm-6 col-xs-12 footerInfoB" id="anchor">
+                            <h4><b>CONTACT US</b></h4>
+                            <p>Phone: (609) 587-665</p>
+                            <p>Email: Briarwood@gmail.com</p>
+                            <p>Address: 2452 Kuser Rd.</p>
+                            <p>Hamilton Square, NJ 08690</p>
+                            <br>
+                            <h4><b>FOLLOW US</b></h4>
+                            <i class="fa fa-facebook-official fa-lg" id="iconA" aria-hidden="true"></i>
+                            <a href="#" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true" id="iconB"></i></a>
+                            <i class="fa fa-yelp fa-lg" aria-hidden="true" id="iconC"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+
+    });
+    </script>
+</body>
+
+</html>
