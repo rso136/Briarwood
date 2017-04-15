@@ -20,6 +20,10 @@ hr {
   border: 0; 
 }
 
+.fa {
+  color: #fff;
+}
+
 .navbar-custom {
 	border-color: transparent;
   border-radius: 0;
